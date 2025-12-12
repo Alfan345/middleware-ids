@@ -1,0 +1,16 @@
+{
+  "label_to_id": {
+    "BENIGN": 0,
+    "Brute Force": 1,
+    "DDoS": 2,
+    "DoS": 3,
+    "Port Scan": 4
+  },
+  "id_to_label": {
+    "0": "BENIGN",
+    "1": "Brute Force",
+    "2": "DDoS",
+    "3": "DoS",
+    "4": "Port Scan"
+  }
+}

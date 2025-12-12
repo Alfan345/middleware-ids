@@ -1,0 +1,19 @@
+{
+  "split_ratio": 0.7,
+  "layers": [
+    512,
+    256,
+    128
+  ],
+  "activation": "leaky_relu",
+  "learning_rate": 0.001,
+  "epochs": 60,
+  "batch_size": 32,
+  "dropout": 0.35,
+  "num_classes": 5,
+  "input_dim": 50,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "early_stopping_patience": 12,
+  "gradient_clip_norm": 5.0
+}
